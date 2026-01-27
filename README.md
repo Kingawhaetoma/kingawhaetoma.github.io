@@ -1,31 +1,26 @@
-# Sreenith Rangaswamy — Cybersecurity Portfolio
+# King Awhaetoma — Cybersecurity Portfolio
 
-This repository contains the source code for my personal cybersecurity portfolio, built with **HTML + Tailwind CSS** and hosted on **GitHub Pages**.
+This repository hosts my personal cybersecurity portfolio website, deployed using **GitHub Pages**.
 
-## About Me
-I bridge the gap between **security policy and technical reality**, transforming frameworks like **NIST** and **CMMC** into automated, embedded controls. My work delivers a continuously validated security posture that is both **provably compliant** and **resilient by design**.
+🔗 **Live Site:** https://kingawhaetoma.com
 
-## Sections
-- **About Me** — background and career focus  
-- **Experience** — GRC, Blue Team, and cybersecurity research roles  
-- **Projects** — AI + automation for compliance & threat analysis  
-- **Skills & Certifications** — GRC, SIEM platforms, technical tools, education  
-- **Contact** — direct form + links to LinkedIn & GitHub  
+## About
+I am a cybersecurity student with experience in security assessments, compliance, data analysis, and reporting.  
+This site highlights:
+- Professional experience
+- Projects and labs
+- Skills and certifications
+- Contact information
 
 ## Tech Stack
-- **Frontend:** HTML5, Tailwind CSS  
-- **Hosting:** GitHub Pages  
-- **Forms:** Formspree  
+- HTML
+- Tailwind CSS
+- JavaScript
+- GitHub Pages
 
-## Assets
-- `assets/Headshot.jpg` → profile picture  
-- `assets/Sreenith_Resume.pdf` → resume  
+## Deployment
+The site is automatically deployed from the `main` branch using GitHub Pages.
 
-## Live Site
-👉 [Visit Portfolio](https://sreenith70.github.io)  
-
----
-
-📧 Contact: [sreenith.r@gmail.com](mailto:sreenith.r@gmail.com)  
-🔗 LinkedIn: [in/sreenith-cyber](https://www.linkedin.com/in/sreenith-cyber/)  
-🐙 GitHub: [sreenith70](https://github.com/sreenith70)  
+## Contact
+- LinkedIn: https://www.linkedin.com/in/king-awhaetoma-054509193/
+- GitHub: https://github.com/Kingawhaetoma
