@@ -6,6 +6,7 @@
 
   <title>King Awhaetoma — Cybersecurity (SOC / Blue Team)</title>
 
+
   <!-- SEO -->
   <meta name="description" content="Entry-level cybersecurity professional with hands-on experience in security monitoring, alert triage, vulnerability analysis, and incident documentation. SOC/Blue Team focused." />
   <meta name="robots" content="index, follow" />
@@ -255,43 +256,104 @@
     </section>
 
     <!-- Projects -->
-    <section id="projects" class="py-20 bg-midnight" aria-labelledby="projects-title">
-      <div class="max-w-6xl mx-auto px-4">
-        <h2 id="projects-title" data-reveal class="text-3xl font-bold mb-12">
-          <span class="text-gradient">Key</span> Projects
-        </h2>
+    <!-- Projects -->
+<section id="projects" class="py-20 bg-midnight" aria-labelledby="projects-title">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 id="projects-title" data-reveal class="text-3xl font-bold mb-12">
+      <span class="text-gradient">Key</span> Projects
+    </h2>
 
-        <div data-reveal-parent class="grid lg:grid-cols-2 gap-8">
+    <!-- FIXED GRID -->
+    <div data-reveal-parent class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
 
-          <div data-reveal class="card rounded-xl p-6 hover:scale-105 transition group">
-            <h3 class="text-xl font-bold mb-4 group-hover:text-accent transition">Security Operations & Monitoring (SOC Capstone)</h3>
-            <p class="text-gray-300 mb-4 text-sm leading-relaxed">
-              Deploying and configuring a simulated SOC environment using Wazuh SIEM for centralized log collection and monitoring.
-              Detecting anomalous activity across Linux and Windows, supporting file integrity monitoring (FIM), vulnerability detection,
-              and documenting incidents with SOC-style workflows.
-            </p>
-            <a href="https://github.com/Kingawhaetoma" target="_blank" rel="noopener noreferrer"
-               class="text-accent font-semibold underline hover:text-white transition">
-              View on GitHub →
-            </a>
-          </div>
+      <!-- Log Analyzer -->
+      <div data-reveal class="card rounded-xl p-6 hover:scale-105 transition group">
+        <h3 class="text-xl font-bold mb-4 group-hover:text-accent transition">
+          Log Analyzer (Brute-Force Detection Tool)
+        </h3>
 
-          <div data-reveal class="card rounded-xl p-6 hover:scale-105 transition group">
-            <h3 class="text-xl font-bold mb-4 group-hover:text-accent transition">Enterprise Network Security & Assessment Lab</h3>
-            <p class="text-gray-300 mb-4 text-sm leading-relaxed">
-              Designed a secure 7-floor enterprise network (168 users, servers, printers) in Cisco Packet Tracer. Implemented VLAN
-              segmentation, trunking/routing, pfSense firewall rules, IDS/IPS concepts, access controls, and produced NIST-aligned
-              documentation. Completed a vulnerability assessment with CVSS scoring and network traffic analysis in Wireshark.
-            </p>
-            <a href="https://github.com/Kingawhaetoma" target="_blank" rel="noopener noreferrer"
-               class="text-accent font-semibold underline hover:text-white transition">
-              View on GitHub →
-            </a>
-          </div>
+        <p class="text-gray-300 mb-4 text-sm leading-relaxed">
+          Built a Python log analysis tool that parses authentication logs, counts failed login attempts per IP,
+          flags suspicious sources using a configurable threshold, and generates an investigation report.
+          Simulates real SOC workflows including brute-force detection, alert triage, and incident documentation.
+        </p>
+
+        <div class="flex flex-wrap gap-3 items-center">
+
+          <a href="https://github.com/Kingawhaetoma/log-analyzer"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="text-accent font-semibold underline hover:text-white transition">
+
+             View on GitHub →
+          </a>
+
+          <span class="text-xs px-3 py-1 rounded-full bg-white/10 border border-white/10 text-gray-200">
+            Python
+          </span>
+
+          <span class="text-xs px-3 py-1 rounded-full bg-white/10 border border-white/10 text-gray-200">
+            SOC Tool
+          </span>
+
+          <span class="text-xs px-3 py-1 rounded-full bg-white/10 border border-white/10 text-gray-200">
+            Log Analysis
+          </span>
 
         </div>
       </div>
-    </section>
+
+
+      <!-- SOC Capstone -->
+      <div data-reveal class="card rounded-xl p-6 hover:scale-105 transition group">
+
+        <h3 class="text-xl font-bold mb-4 group-hover:text-accent transition">
+          Security Operations & Monitoring (SOC Capstone)
+        </h3>
+
+        <p class="text-gray-300 mb-4 text-sm leading-relaxed">
+          Deploying and configuring a simulated SOC environment using Wazuh SIEM for centralized log collection and monitoring.
+          Detecting anomalous activity across Linux and Windows, supporting file integrity monitoring (FIM),
+          vulnerability detection, and documenting incidents with SOC-style workflows.
+        </p>
+
+        <a href="https://github.com/Kingawhaetoma"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="text-accent font-semibold underline hover:text-white transition">
+
+           View on GitHub →
+        </a>
+
+      </div>
+
+
+      <!-- Enterprise Lab -->
+      <div data-reveal class="card rounded-xl p-6 hover:scale-105 transition group">
+
+        <h3 class="text-xl font-bold mb-4 group-hover:text-accent transition">
+          Enterprise Network Security & Assessment Lab
+        </h3>
+
+        <p class="text-gray-300 mb-4 text-sm leading-relaxed">
+          Designed a secure 7-floor enterprise network (168 users, servers, printers) in Cisco Packet Tracer.
+          Implemented VLAN segmentation, routing, pfSense firewall rules, IDS concepts, and produced NIST-aligned documentation.
+          Completed vulnerability assessment using CVSS scoring and traffic analysis.
+        </p>
+
+        <a href="https://github.com/Kingawhaetoma"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="text-accent font-semibold underline hover:text-white transition">
+
+           View on GitHub →
+        </a>
+
+      </div>
+
+    </div>
+  </div>
+</section>
 
     <!-- Skills -->
     <section id="skills" class="py-20" aria-labelledby="skills-title">
