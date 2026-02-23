@@ -263,8 +263,46 @@
       <span class="text-gradient">Key</span> Projects
     </h2>
 
-    <!-- FIXED GRID -->
-    <div data-reveal-parent class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
+    <div data-reveal-parent class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 items-start">
+
+      <!-- Compliance Dashboard Project (PASTE HERE) -->
+    
+     <!-- Compliance Dashboard (SAFE CARD) -->
+<div data-reveal class="card rounded-xl p-6 hover:scale-105 transition group">
+  <h3 class="text-xl font-bold mb-4 group-hover:text-accent transition">
+    Compliance Dashboard (GRC)
+  </h3>
+
+  <p class="text-gray-300 mb-4 text-sm leading-relaxed">
+    Built a full-stack Governance, Risk, and Compliance (GRC) dashboard to manage frameworks, controls,
+    assessments, and evidence tracking. Deployed with a PostgreSQL backend (Supabase) and designed an
+    admin-style UI for portfolio/demo use.
+  </p>
+
+  <div class="flex flex-wrap gap-3 items-center">
+    <a href="https://github.com/Kingawhaetoma/compliance-dashboard"
+       target="_blank" rel="noopener noreferrer"
+       class="text-accent font-semibold underline hover:text-white transition">
+      View on GitHub →
+    </a>
+
+    <!-- Optional: add live link once stable -->
+    <!--
+    <a href="https://YOUR-DEPLOY-LINK.vercel.app"
+       target="_blank" rel="noopener noreferrer"
+       class="text-accent font-semibold underline hover:text-white transition">
+      Live Demo →
+    </a>
+    -->
+
+    <span class="text-xs px-3 py-1 rounded-full bg-white/10 border border-white/10 text-gray-200">Next.js</span>
+    <span class="text-xs px-3 py-1 rounded-full bg-white/10 border border-white/10 text-gray-200">Prisma</span>
+    <span class="text-xs px-3 py-1 rounded-full bg-white/10 border border-white/10 text-gray-200">Supabase</span>
+    <span class="text-xs px-3 py-1 rounded-full bg-white/10 border border-white/10 text-gray-200">GRC</span>
+  </div>
+</div>
+    
+      <!-- Your other project cards stay below -->
 
       <!-- Log Analyzer -->
       <div data-reveal class="card rounded-xl p-6 hover:scale-105 transition group">
@@ -312,9 +350,8 @@
         </h3>
 
         <p class="text-gray-300 mb-4 text-sm leading-relaxed">
-          Deploying and configuring a simulated SOC environment using Wazuh SIEM for centralized log collection and monitoring.
-          Detecting anomalous activity across Linux and Windows, supporting file integrity monitoring (FIM),
-          vulnerability detection, and documenting incidents with SOC-style workflows.
+          Deployed a Wazuh SIEM lab using Docker (manager, indexer, dashboard) and built workflows for alert monitoring, investigation, and documentation.
+          Validated log collection and reviewed security events such as authentication failures, suspicious processes, and user creation activity.
         </p>
 
         <a href="https://github.com/Kingawhaetoma"
